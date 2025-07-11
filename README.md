@@ -16,6 +16,12 @@ This script fetches real-time data from the spreadsheet and automatically insert
 Key Recommendations (Key_recommendation.gs)
 This script generates spreadsheets based on crash types and counts on specific roads under specific agencies. It also links these spreadsheets to the updated numbers in the presentation and action plans.
 
+Multiple Presentation Copies (Apps Script + Python)
+
+To support large-scale creation of customized presentation decks, I wrote scripts using both Google Apps Script and Python (via Google Drive API in Google Colab). These scripts create multiple copies of a base slide deck and save them in a designated Google Drive folder.
+
+This was useful when generating personalized versions of presentations for different regions, agencies, or use cases.
+
 ## Work in Progress
 
 I had also started working on automating the Summary Recommendation section (Summary_Recommendation.gs), but this part remained incomplete as my internship concluded before it could be finalized.
