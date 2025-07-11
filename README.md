@@ -10,14 +10,13 @@ Due to the nature of the data and presentations, the actual files cannot be shar
 ## What the Scripts Do
 I was able to automate two major sections of the workflow:
 
-Table Creation from Data (table_with_template.gs)
+Table Creation from Data (table_with_template.gs)  
 This script fetches real-time data from the spreadsheet and automatically inserts it into a pre-defined table format within the presentation. It was used for generating data-driven slides directly from the source files.
 
-Key Recommendations (Key_recommendation.gs)
+Key Recommendations (Key_recommendation.gs)  
 This script generates spreadsheets based on crash types and counts on specific roads under specific agencies. It also links these spreadsheets to the updated numbers in the presentation and action plans.
 
-Multiple Presentation Copies (Apps Script + Python)
-
+Multiple Presentation Copies (Apps Script + Python)  
 To support large-scale creation of customized presentation decks, I wrote scripts using both Google Apps Script and Python (via Google Drive API in Google Colab). These scripts create multiple copies of a base slide deck and save them in a designated Google Drive folder.
 
 This was useful when generating personalized versions of presentations for different regions, agencies, or use cases.
